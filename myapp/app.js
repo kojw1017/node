@@ -6,7 +6,6 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
 var app = express();
 
 // view engine setup
@@ -38,7 +37,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(3001,()=>{
+app.listen(3000,()=>{
   console.log('Server is running at port 3001');
 });
 
