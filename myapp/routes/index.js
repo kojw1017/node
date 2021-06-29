@@ -139,7 +139,7 @@ function upBitgo(){
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index');
+  res.render('copy');
 });
 
 router.get('/a', function(req, res, next) {
