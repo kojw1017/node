@@ -107,7 +107,7 @@ function upBitgo(){
 
         function funOne(str) {
           str = one * str;
-          return str.toFixed(0);
+          return str.toFixed(1);
         }
 
          function kimp(a,b){
