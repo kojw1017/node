@@ -95,7 +95,7 @@
     var kraTOup = (realMoney/sell) * buy //크라켄에서 사서 업비트에서 팔면남는돈
     var kramedo = kraTOup * 0.0005 //매수 수수료 + 출금 수수료 추출
     var kraToupbit = kraTOup-kramedo//크라 매도 수수료 뺀 마지막 원금
-    lastMoney = kraToupbit-mym//계산금액 - 원금
+    var lastMoney = mym-kraToupbit//계산금액 - 원금
     return kraToupbit.toFixed(0)
   }
 
